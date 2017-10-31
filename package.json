@@ -1,0 +1,36 @@
+{
+  "name": "check_list-api",
+  "version": "0.0.1",
+  "description": "REST API endpoint for check list app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js",
+    "build": "babel server.js -d dist",
+    "serve": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ospone/check_list-api.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Programr Opn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ospone/check_list-api/issues"
+  },
+  "homepage": "https://github.com/ospone/check_list-api#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.12.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
